@@ -108,11 +108,16 @@
 		/orders/id/{id}
 
 /customers
+
 	We are posting customer details from /order service but for testing we can send below data for this service :
-	{    
-  		 "customerName":"Sukanya",    
-   		 "address":"Pune"
-	}
+
+     {    
+
+         "customerName":"Sukanya",    
+
+          "address":"Pune"
+
+     }
 
 ### QUERY:
 SELECT O.*,C.CUSTOMER_NAME ,C.ADDRESS  FROM TBL_ORDERS O,TBL_CUSTOMER C
