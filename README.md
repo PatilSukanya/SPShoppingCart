@@ -67,25 +67,10 @@
 	d. getting brands by productId
  		brands/productId/{productId}
 
-### 2.Post service implemented for Orders and customer:
+### 2. Post service implemented for Orders and customer:
  
- /orders
+ a. /orders
 	need to send data for this post service. Below is example given:
-	{
-		"orderDate":"2022-06-23",
-		"orderDileveredDate":"2022-06-28",
-		"orderStatus": "Shipped",
-		"productId": 3,
-		"paymentSource":"UPI",
-		"paymentStatus": "Done",
-		"customers":
-			[{
-			"userId": 3,
-			"customerName":"Sukanya",
-			"address":"Jalgaon"
-			}]
-	}
--------------------------------------------------------
 	{
 		"orderDate":"2022-02-25",
 		"orderDileveredDate":"2022-02-29",
@@ -96,7 +81,7 @@
 		"customers":
 			[{
 			"userId": 4,
-			"customerName":"Shubhangi",
+			"customerName":"XYZ",
 			"address":"Nashik"
 			}]
 	}
