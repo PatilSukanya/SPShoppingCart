@@ -68,7 +68,8 @@
  		brands/productId/{productId}
 
 ### 2.Post service implemented for Orders and customer
-  /orders
+ 
+ /orders
 	need to send data for this post service. Below is example given:
 	{
 		"orderDate":"2022-06-23",
