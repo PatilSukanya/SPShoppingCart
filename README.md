@@ -70,20 +70,35 @@
 ### 2. Post service implemented for Orders and customer:
  
  a. /orders
+ 
 	need to send data for this post service. Below is example given:
+	
 	{
-		"orderDate":"2022-02-25",
-		"orderDileveredDate":"2022-02-29",
-		"orderStatus": "Delivered",
-		"productId": 6,
-		"paymentSource":"Online",
-		"paymentStatus": "Pending",
-		"customers":
-			[{
-			"userId": 4,
-			"customerName":"XYZ",
-			"address":"Nashik"
-			}]
+	
+	"orderDate":"2022-02-25",
+	
+	"orderDileveredDate":"2022-02-29",
+	
+	"orderStatus": "Delivered",
+	
+	"productId": 6,
+	
+	"paymentSource":"Online",
+	
+	"paymentStatus": "Pending",
+	
+	"customers":
+	
+	[{
+	
+	"userId": 4,
+	
+	"customerName":"XYZ",
+	
+	"address":"Nashik"
+	
+	}]
+	
 	}
 
 ### 3.Get Services implemented for orders
