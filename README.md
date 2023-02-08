@@ -67,7 +67,7 @@
 	d. getting brands by productId
  		brands/productId/{productId}
 
-### 2.Post service implemented for Orders and customer
+### 2.Post service implemented for Orders and customer:
  
  /orders
 	need to send data for this post service. Below is example given:
